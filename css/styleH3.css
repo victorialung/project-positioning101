@@ -1,0 +1,22 @@
+/*Ejemplo H3: Uso del positioning absolut
+- Se pueden hacer distintas aplicaciones con el posicionamiento absoluto,
+como sobreponerse al elemento que tiene debajo(y esta en el flujo normal)
+-La diferencia entre el primer y segundo ejemplo es de donde parte el sistema de coordenadas. En el primer ejemplo parte del documento y el segundo toma como referencia al elemento padre("box_1")*/
+
+#box_1 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: #ee3e64;
+    background: #ee3e64;
+}
+
+#box_2 {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+    background: #44accf;
+}
+

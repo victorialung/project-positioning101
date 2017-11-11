@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+/*Ejemplo A: Uso del positioning:static--><!-- Este valor representa el flujo normal que habita en una pagina web.Los elementos posicionados bajo static no poseen valores de direccionamiento(valores para modificar su posición final),
+tales como:top,
+bottom,
+left,
+right,
+z-index */
+
+
+
+#box_A1 {
+    position: static;
+    width: 200px;
+    height: 200px;
+    background: #ee3e64;
+}
+
+#box_A2 {
+    position: static;
+    width: 200px;
+    height: 200px;
+    background: #44accf;
+}
+
+#box_A3 {
+    position: static;
+    width: 200px;
+    height: 200px;
+    background: #b7d84b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

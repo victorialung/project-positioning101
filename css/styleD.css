@@ -1,0 +1,31 @@
+<!-- Ejemplo D : Uso del positioning relative-->
+<!-- Respecto al sistema de coordenadas los elementos de posicionamiento relativo toman de referencia al documento y de enconntrarse adentro de otro elemento,
+tomará a este ultimo como medida para sus propiedades complementarias.En este caso "box 1" es el punto del sistema de coordenadas de "box 2".
+
+#D {
+    width: 1000px;
+    height: 1000px;
+    margin: 15px;
+}
+
+#box_D1 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: #ee3e64;
+}
+
+#box_D2 {
+    position: relative;
+    left: 200px;
+    width: 200px;
+    height: 200px;
+    background: #44accf;
+}
+
+#box_D3 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: #b7d84b;
+}

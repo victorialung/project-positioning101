@@ -1,0 +1,25 @@
+/*Ejemplo I: Uso del positioning fixed -Al definir los valores de coordenadas("left" y "right")en cero,
+permite que el div con posicionado con fixed se estire,
+al igual que absolut,
+por todo lo ancho de la ventana de navegación </h1>*/
+
+
+#boxlorem1 {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size-adjust: 12px;
+}
+
+#boxlorem2 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #f95b34;
+    padding: 10px;
+}
+
+#boxlorem1,
+#boxlorem2 p {
+    width: 900px;
+    margin: 0 auto;
+}

@@ -1,0 +1,31 @@
+
+<!-- Ejemplo C:Uso de positioning relative -->
+
+#C {
+    width: 1000px;
+    height: 1000px;
+    margin: 15px;
+
+}
+
+#box_C1 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: #ee3e64;
+}
+
+#box_C2 {
+    position: relative;
+    left: 200px;
+    width: 200px;
+    height: 200px;
+    background: #44accf;
+}
+
+#box_C3 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: #b7d84b;
+}

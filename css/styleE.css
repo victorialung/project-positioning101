@@ -1,0 +1,51 @@
+<!-- Ejemplo E: Uso del positioning:absolut--><!--los elementos de posicionamiento absoluto son removidos del flujo normal. En tal punto,
+se ubican en una "capa independiente" encima del documento y no afectan o son afectados por otros elementos que se encuentran en el flujo. -Al igual que los elementos de posicionamiento relativo,
+la posicion absolut posee propiedades de compensacion para el posicionamiento. -De no especificarse de un contenedor el elemento posicionado absoluto tomará al documento de referencia-->
+
+<!--De extenderse o reducirse la ventana del navegador,
+los elementos absolutos se mantendran en la posición designada,
+ya que ellos no responden al flujo normal del documento.-->
+
+
+
+#E{
+    width: 1000px;
+    height: 1000px;
+    margin: 15px;
+}
+
+#box_E1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background: #ee3e64;
+}
+
+#box_E2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    background: #44accf;
+}
+
+#box_E3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background: #b7d84b;
+}
+
+#box_E4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    background: #ebde52;
+}

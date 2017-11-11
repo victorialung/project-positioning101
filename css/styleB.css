@@ -1,0 +1,41 @@
+/*Ejemplo B: Uso del positioning:relative--><!--El elemento de posición relativo se comporta igual que un elemento estatico con la diferencia que estos elementos posicionados poseen los valores para modificar su posición final(top, bottom, left, right, z-index). Los elementos antes y despues del elemento de posición relativo no se ven afectado por su nueva posicion final.Sin embargo,
+el posicionamiento relativo permite ser el contenedor(referencia) de futuros elementos posicionados,
+tales como elementos posicionados absolutos,
+por eso muy importante saber a qué elementos designamos valores de posición relativo,
+ya que se volveran el punto de coordena de los siguientes elementos posicionados"hijos".*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+#B {
+    width: 500px;
+    height: 500px;
+    margin: 15px;
+}
+
+#box_B1 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: #ee3e64;
+}
+
+#box_B2 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: #44accf;
+}
+
+#box_B3 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: #b7d84b;
+}

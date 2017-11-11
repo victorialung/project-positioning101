@@ -1,0 +1,52 @@
+/*
+Ejemplo F: Uso del positioning:absolut
+
+- Al igual que los elementos de posicionamiento relativo los elementos absolutos crean un nuevo sistema de coordenadas para
+los fututros elementos hijos.En este ejemplo se puede visualizar que elemento de clase "orange" toma de punto para su sistema
+de coordenadas a los elemento id"box_1,2,3,4".*/
+
+
+#box_F1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background: #ee3e64;
+}
+
+#box_F2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    background: #44accf;
+}
+
+#box_F3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background: #b7d84b;
+}
+
+#box_F4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    background: #ebde52;
+}
+
+.orange {
+    background: #f95b34;
+    position: absolute;
+    top: 39%;
+    left: 41%;
+    width: 40px;
+    height: 40px;
+}

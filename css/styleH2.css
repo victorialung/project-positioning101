@@ -1,0 +1,19 @@
+/*Ejemplo H2: Uso del positioning absolut
+- Mientras el elemento en posicion absoluto no se le haya aplicado un valor complementario("top"),
+ si se le define un valor complementario("left") mantendra su posicion vertical pero se movera horizontalmente.*/
+
+#box_1 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: #ee3e64;
+}
+
+#box_2 {
+    position: absolute;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+    background: #44accf;
+}
+

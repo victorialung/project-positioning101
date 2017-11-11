@@ -1,0 +1,20 @@
+/*Ejemplo H: Uso del positioning absolut -Con el posicionamiento absoluto podemos definir la altura de nuestro elemento sin definir un height.Como se muestra en el ejemplo "box_2" este ocupará el "20% del lado izquierdo"(80%left) que lo ocupará completamente,
+ya que su elemento padre("box_1") ocupa toda la ventana del navegador. -En el segundo ejemplo se les designa */
+
+#box_1 {
+    position: absolute;
+    top: 0;
+    right: 20%;
+    bottom: 0;
+    left: 0;
+    background: #ee3e64;
+}
+
+#box_2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 80%;
+    background: #b7d84b;
+}
